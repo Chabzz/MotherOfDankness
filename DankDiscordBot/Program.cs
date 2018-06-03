@@ -48,7 +48,7 @@ namespace DankDiscordBot
             Client.UserJoined += AnnounceJoinedUser; ;
             Client.UserLeft += AnnounceLeftdUser;
 
-            string Token = "NDA1MDc3MDI1ODY3NTYzMDA4.DfQItQ.ELHsELKnwnXXxfV651ug5Ucd7yw";
+            string Token = "123";
             await Client.LoginAsync(TokenType.Bot, Token);
             await Client.StartAsync();
 
